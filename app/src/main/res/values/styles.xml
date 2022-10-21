@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#64565656</item>
+        <item name="colorControlActivated">@color/slider3</item>
+    </style>
+
+    <style name="ButtomNavigationTheme1" parent="Widget.Design.NavigationView" >
+        <item name="android:colorPrimary">@color/slider3</item>
+        <item name="android:colorPrimaryDark">@color/slider3</item>
+        <item name="android:colorAccent">@color/slider3</item>
+     </style>
+
+<style name="AppTheme.NoActionBar" parent="AppTheme"/>
+
+    <style name="Fragment_Course" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/slider33</item>
+        <item name="colorPrimaryDark">@color/slider33</item>
+        <item name="colorAccent">@color/slider3</item>
+        <item name="colorControlActivated">@color/slider3</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/fade_in_addcourse</item>
+        <item name="android:windowExitAnimation">@anim/fade_out_addcourse</item>
+    </style>
+
+    <style name="Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+
+    <style name="Fragment_Analytics" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/slider22</item>
+        <item name="colorPrimaryDark">@color/slider22</item>
+        <item name="colorAccent">@color/slider2</item>
+        <item name="colorControlActivated">@color/slider2</item>
+    </style>
+
+    <style name="Fragment_Todo" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/slider11</item>
+        <item name="colorPrimaryDark">@color/slider11</item>
+        <item name="colorAccent">@color/slider1</item>
+        <item name="colorControlActivated">@color/slider1</item>
+    </style>
+
+    <style name="Fragment_Quotes" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/slider44</item>
+        <item name="colorPrimaryDark">@color/slider44</item>
+        <item name="colorAccent">@color/slider4</item>
+        <item name="colorControlActivated">@color/slider4</item>
+    </style>
+</resources>

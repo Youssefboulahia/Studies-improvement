@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".CoursesFragment"
+    android:orientation="vertical">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_courses"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      android:layout_above="@+id/tablayout_courses"
+        />
+
+
+
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tablayout_courses"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/testest"
+            android:layout_alignParentBottom="true"
+            app:tabSelectedTextColor="@color/slider3"
+            app:tabTextColor="#64080808"
+            app:tabUnboundedRipple="true"
+            app:tabRippleColor="@color/slider3"
+
+            >
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/tabcourses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/courses_fragments_coursesprogress_main"
+                android:text="Start"
+
+
+                />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/courses"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:icon="@drawable/courses_fragments_courseslist_default"
+                android:text="My List"
+                 />
+
+
+        </android.support.design.widget.TabLayout>
+
+
+
+
+</RelativeLayout>

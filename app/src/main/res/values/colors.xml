@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#170c38</color>
+    <color name="colorPrimaryDark">#170c38</color>
+    <color name="colorAccent">#420d4f99</color>
+    <color name="bitch">#3897c7</color>
+    <color name="lastprimary">#0d4f99</color>
+
+    <color name="slider1">#8644a1</color>
+    <color name="slider2">#bf4236</color>
+    <color name="slider3">#2e71be</color>
+    <color name="slider4">#259654</color>
+
+    <color name="slider11">#7D3C98</color>
+    <color name="slider22">#b4372a</color>
+    <color name="slider33">#2662A9</color>
+    <color name="slider44">#1E8449</color>
+
+
+
+    <color name="barcolor">#544b4b4b</color>
+
+</resources>

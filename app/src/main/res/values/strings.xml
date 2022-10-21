@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SutdyMate</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="openmenu">Open Drawer</string>
+    <string name="closemenu">Close Drawer</string>
+    <string name="dashboard">Dashboard</string>
+</resources>

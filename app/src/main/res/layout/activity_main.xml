@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/screenlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+<android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/slider1"
+    android:minHeight="?attr/actionBarSize"
+    android:theme="?attr/actionBarTheme"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark">
+</android.support.v7.widget.Toolbar>
+
+<android.support.design.widget.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/slider1"
+        app:tabSelectedTextColor="@android:color/white"
+        app:tabTextColor="#080808">
+
+<android.support.design.widget.TabItem
+    android:id="@+id/tabcourses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="courses" />
+
+   <android.support.design.widget.TabItem
+       android:id="@+id/tabanalytics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="analytics" />
+
+    <android.support.design.widget.TabItem
+        android:id="@+id/tabtodo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Todo" />
+
+    <android.support.design.widget.TabItem
+        android:id="@+id/tabquote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="quotes"
+        />
+
+</android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

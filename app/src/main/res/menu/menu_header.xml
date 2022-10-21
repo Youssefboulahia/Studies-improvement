@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Achievements"
+            android:icon="@drawable/achieve"
+            android:id="@+id/achievements"/>
+    <item
+        android:title="Drafts"
+        android:icon="@drawable/draft"
+        android:id="@+id/draft"/>
+    <item
+        android:title="Agenda"
+        android:icon="@drawable/agenda"
+        android:id="@+id/agenda"/>
+    <item
+        android:title="Basket"
+        android:icon="@drawable/basket"
+        android:id="@+id/basket"/>
+
+
+    </group>
+
+    <item android:title="Help">
+
+        <menu>
+
+            <item
+                android:id="@+id/guide"
+                android:title="Guide"
+                android:icon="@drawable/guide"/>
+            <item
+                android:id="@+id/faq"
+                android:title="FAQ"
+                android:icon="@drawable/faq"/>
+            <item
+                android:id="@+id/contacus"
+                android:title="Contact Us"
+                android:icon="@drawable/mail"/>
+        </menu>
+
+    </item>
+
+
+</menu>

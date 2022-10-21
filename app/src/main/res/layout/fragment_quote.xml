@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".CoursesFragment"
+    android:orientation="vertical">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_quote"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"/>
+
+
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tablayout_quote"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/testest"
+        app:layout_constraintBottom_toBottomOf="@+id/viewpager_quote"
+        app:tabSelectedTextColor="@color/slider4"
+        app:tabTextColor="#64080808"
+        app:tabRippleColor="@color/slider4"
+        app:tabUnboundedRipple="true"
+        >
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tabcourses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/quote_fragments_bemotivated_main"
+            android:text="Get Inspired"
+
+            />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/courses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:icon="@drawable/quote_fragments_favorites_default"
+            android:text="favorites"
+            />
+
+
+    </android.support.design.widget.TabLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

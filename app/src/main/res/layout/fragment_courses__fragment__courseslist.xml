@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Courses_Fragment_CoursesList"
+    android:id="@+id/relativelayout">
+
+
+
+
+
+
+    <ListView
+        android:id="@+id/courses_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#962e71be"
+        android:dividerHeight="1dp"
+        android:clipToPadding="false"
+        >
+
+    </ListView>
+
+
+
+
+
+
+
+<RelativeLayout
+    android:id="@+id/layout_empty_course"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/empty_box"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+       android:src="@drawable/list_for_empty"
+        app:maxImageSize="40dp"
+        app:fabCustomSize="@dimen/appIntro2BottomBarHeight"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="#FFF"
+        android:elevation="0dp"
+        app:elevation="0dp"
+        android:alpha="0.7"
+       />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/text1_empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course List Is Empty!"
+        android:layout_below="@id/empty_box"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:textColor="@color/slider3"
+        android:alpha="0.7"
+        android:layout_marginTop="12dp"
+        android:typeface="serif"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1_empty"
+        android:text="ADD COURSES WITH THE BUTTON BELOW"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textColor="@color/slider3"
+        android:alpha="0.7"
+        android:layout_marginTop="6dp"/>
+
+</RelativeLayout>
+
+
+
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_course"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        app:fabSize="normal"
+        android:src="@drawable/addcourse"
+        app:elevation="10dp"
+        app:maxImageSize="33dp"
+        app:backgroundTint="@color/slider3"
+        />
+
+
+
+</RelativeLayout>
